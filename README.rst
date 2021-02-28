@@ -4,7 +4,6 @@ pysonofflanr3
 
 
 .. image:: https://img.shields.io/pypi/v/pysonofflanr3.svg
-    :target: https://pypi.python.org/pypi/pysonofflanr3
     :alt: Latest PyPi Release
 
 .. image:: https://img.shields.io/pypi/pyversions/pysonofflanr3.svg?style=flat
@@ -36,7 +35,7 @@ pysonofflanr3
     :alt: Python 3
 
 .. image:: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
-    :target: https://www.buymeacoffee.com/XTOsBAc
+    :target: https://www.buymeacoffee.com/nandogommez
     :alt: Buy Me A Coffee
 
 Control Sonoff devices running original firmware, in LAN mode.
