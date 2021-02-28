@@ -49,9 +49,10 @@ Documentation
 Install
 ------------------
 ::
+
 with common user
     $ git clone git://github.com/NandoGommez/pysonofflan-remix/ && cd pysonofflan-remix
-with common user
+with root user
     $ python3 setup.py install
 
 Command-Line Usage
