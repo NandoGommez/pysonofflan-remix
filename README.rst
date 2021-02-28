@@ -12,7 +12,7 @@ Control Sonoff devices running original firmware, in LAN mode.
 To control Sonoff switches running the V3+ Itead firmware (tested on 3.0, 3.0.1, 3.1.0, 3.3.0, 3.4.0, 3.5.0), locally (LAN mode).
 
 # Remix of the original pysonofflan
-Apparently the original "pithonofflan from github.com/mattsaxon/pysonofflan" is no longer being maintained, and contained some bugs.
+Apparently the original "pysonofflan from github.com/mattsaxon/pysonofflan" is no longer being maintained, and contained some bugs.
 I needed something that exactly this component does, so I forked it, fixed the line I needed, and re-up in case the original was removed.
 
 **This will only work for Sonoff devices running V3+ of the stock (Itead / eWeLink) firmware. For users of V1.8.0 - V2.6.1, please use**  `PySonoffLAN <https://pypi.org/project/pysonofflan/>`_
