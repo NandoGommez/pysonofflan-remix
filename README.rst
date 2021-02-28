@@ -4,6 +4,7 @@ pysonofflanr3
 
 
 .. image:: https://img.shields.io/pypi/v/pysonofflanr3.svg
+    :target: https://pypi.python.org/pypi/pysonofflanr3
     :alt: Latest PyPi Release
 
 .. image:: https://img.shields.io/pypi/pyversions/pysonofflanr3.svg?style=flat
