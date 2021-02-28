@@ -1,39 +1,6 @@
 =============
-pysonofflanr3
+pysonofflanr3 - remix
 =============
-
-
-.. image:: https://img.shields.io/pypi/v/pysonofflanr3.svg
-    :target: https://pypi.python.org/pypi/pysonofflanr3
-    :alt: Latest PyPi Release
-
-.. image:: https://img.shields.io/pypi/pyversions/pysonofflanr3.svg?style=flat
-    :target: https://pypi.python.org/pypi/pysonofflanr3
-    :alt: Supported Python Versions
-
-.. image:: https://img.shields.io/travis/mattsaxon/pysonofflan.svg
-    :target: https://travis-ci.org/mattsaxon/pysonofflan
-    :alt: Build Status
-
-.. image:: https://readthedocs.org/projects/pysonofflanr3/badge/?version=latest
-    :target: https://pysonofflanr3.readthedocs.io/
-    :alt: Documentation Status
-
-.. image:: https://coveralls.io/repos/github/mattsaxon/pysonofflan/badge.svg
-    :target: https://coveralls.io/github/mattsaxon/pysonofflan
-    :alt: Code Coverage
-
-.. image:: https://img.shields.io/pypi/wheel/pysonofflanr3.svg
-    :target: https://pypi.org/project/pysonofflanr3/#files
-    :alt: Has Wheel Package
-   
-.. image:: https://pyup.io/repos/github/mattsaxon/pysonofflan/shield.svg
-    :target: https://pyup.io/repos/github/mattsaxon/pysonofflan/
-    :alt: Updates
-
-.. image:: https://pyup.io/repos/github/mattsaxon/pysonofflan/python-3-shield.svg
-    :target: https://pyup.io/repos/github/mattsaxon/pysonofflan/
-    :alt: Python 3
 
 .. image:: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
     :target: https://www.buymeacoffee.com/nandogommez
@@ -44,10 +11,9 @@ Control Sonoff devices running original firmware, in LAN mode.
 
 To control Sonoff switches running the V3+ Itead firmware (tested on 3.0, 3.0.1, 3.1.0, 3.3.0, 3.4.0, 3.5.0), locally (LAN mode).
 
-# No longer maintained!
-This component is no longer being maintained, instead for Home Assistant users, use https://github.com/AlexxIT/SonoffLAN, which is more functional and stable. Any future contributions I make will be to this repo.
-
-Unfortunately @AlexxIT has not (yet) made his component callable outside of Home Assistant, but since I'm not using this component, I will not be maintaining it. Sorry.
+# Remix of the original pysonofflan
+Apparently the original "pithonofflan from github.com/mattsaxon/pysonofflan" is no longer being maintained, and contained some bugs.
+I needed something that exactly this component does, so I forked it, fixed the line I needed, and re-up in case the original was removed.
 
 **This will only work for Sonoff devices running V3+ of the stock (Itead / eWeLink) firmware. For users of V1.8.0 - V2.6.1, please use**  `PySonoffLAN <https://pypi.org/project/pysonofflan/>`_
 
@@ -83,8 +49,10 @@ Documentation
 Install
 ------------------
 ::
-
-    $ pip install pysonofflanr3
+with common user
+    $ git clone git://github.com/NandoGommez/pysonofflan-remix/ && cd pysonofflan-remix
+with common user
+    $ python3 setup.py install
 
 Command-Line Usage
 ------------------
